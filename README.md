@@ -1,4 +1,2 @@
 # TeaCozy
-Codecademy Ready week 4 assignment
-
-Website laid out using flexbox
+Codecademy Ready week 4 assignment. A website laid out using flexbox.
