@@ -34,27 +34,15 @@ header img {
 
 nav {
   justify-content: space-between;
-  width: 35%;
   flex-wrap: wrap;
+  align-items:
 }
 
-a {
+nav a {
   text-decoration: underline;
+  padding-left: 15px;
+  padding-right: 15px;
   color: seashell;
-}
-
-.tea img {
-  width: 300px;
-  height: 200px;
-}
-
-.tea h4 {
-  margin: 10px;
-}
-
-#sections {
-  flex-direction: column;
-  margin-top: 69px;
 }
 
 #mission {
@@ -72,11 +60,7 @@ a {
   width: 1200px;
 }
 
-#mission h2 h4{
-  margin: 0;
-}
-
-#featured {
+.featured {
   flex-direction: column;
   padding-bottom: 40px;
   padding-top: 40px;
@@ -86,7 +70,20 @@ a {
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row;
-  /*padding-bottom: 40px;*/
+  justify-content: center;
+}
+
+.tea {
+  margin: 15px;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+}
+
+.tea h4 {
+  margin: 10px;
 }
 
 #locations {
@@ -99,7 +96,7 @@ a {
   align-content: space-around;
 }
 
-#stores {
+.stores {
   justify-content: center;
   flex-wrap: wrap;
 }
