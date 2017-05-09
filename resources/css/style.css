@@ -78,13 +78,15 @@ a {
 
 #featured {
   flex-direction: column;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 #selections {
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row;
-  padding-bottom: 40px;
+  /*padding-bottom: 40px;*/
 }
 
 #locations {
