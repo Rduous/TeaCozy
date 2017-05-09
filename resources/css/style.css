@@ -45,6 +45,7 @@ nav a {
 }
 
 #mission {
+    margin-top: 69px;		
     background-image: url('../images/img-mission-background.jpg');
     background-repeat:  no-repeat;
     background-position: center;
