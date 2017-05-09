@@ -84,12 +84,11 @@ a {
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row;
-
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 #locations {
-  height: 500px;
+  min-height: 500px;
   background-image: url('../images/img-locations-background.jpg');
   background-repeat:  no-repeat;
   background-position: center;
@@ -100,12 +99,11 @@ a {
 
 #stores {
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .location {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 15px;
+  margin: 15px 20px;
   z-index: 1;
   width: 300px;
   opacity: 1;
