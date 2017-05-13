@@ -14,9 +14,11 @@ body {
 
 .flex {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-header {
+header.flex {
   top: 0;
   min-height: 69px;
   justify-content: space-between;
@@ -26,6 +28,7 @@ header {
   width: 100%;
   z-index: 1;
   position: fixed;
+  flex-wrap: nowrap;
 }
 
 header img {
@@ -33,11 +36,11 @@ header img {
   height: 50px;
 }
 
-nav {
-  flex-wrap: wrap;
+nav.flex {
+  justify-content: flex-end;
 }
 
-nav a {
+nav.flex a {
   text-decoration: underline;
   padding-left: 15px;
   padding-right: 15px;
@@ -49,9 +52,7 @@ nav a {
     background-image: url('../images/img-mission-background.jpg');
     background-repeat:  no-repeat;
     background-position: center;
-    text-align: center;
     align-items: center;
-    justify-content: center;
     height: 700px;
 }
 
@@ -67,10 +68,7 @@ nav a {
 }
 
 #selections {
-  justify-content: space-around;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
 }
 
 .tea {
@@ -92,18 +90,11 @@ nav a {
   background-repeat:  no-repeat;
   background-position: center;
   flex-direction: column;
-  justify-content: center;
   align-content: space-around;
-}
-
-.stores {
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 .location {
   margin: 15px 20px;
-  /*z-index: 1;*/
   width: 300px;
   opacity: 1;
   background-color: black;
